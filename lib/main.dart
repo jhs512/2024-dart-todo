@@ -29,11 +29,10 @@ void main() {
 }
 
 class Todo {
-  late final int id;
-  late String content;
+  final int id;
+  String content;
 
-  Todo(int id, String content) {
-    this.id = id;
-    this.content = content;
-  }
+  Todo(int id, String content)
+      : id = id,
+        content = content;
 }
