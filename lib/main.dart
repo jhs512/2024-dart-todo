@@ -32,7 +32,5 @@ class Todo {
   final int id;
   String content;
 
-  Todo(int id, String content)
-      : id = id,
-        content = content;
+  Todo(this.id, this.content);
 }
